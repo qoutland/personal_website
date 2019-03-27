@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "personal-website",
-  "alias": ["quinoutland.com"]
+  "alias": ["quinoutland.com"],
   "builds": [
     { "src": "actions/*.js", "use": "@now/node" },
     { "src": "index.html", "use": "@now/static" },
