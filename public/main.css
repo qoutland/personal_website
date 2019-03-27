@@ -7625,6 +7625,9 @@ a.navbar-item.is-active,
     .navbar-burger {
         display: none
     }
+    .contact {
+        display: none
+    }
 
     .navbar-item,
     .navbar-link {
@@ -12908,4 +12911,11 @@ input[name="carousel"] {
 .fas {
     font-size: 50px;
     color: #6699ff;
+}
+.contact {
+    display: block
+    position: relative;
+    margin-left: auto;
+    margin-top: 5px;
+    
 }
