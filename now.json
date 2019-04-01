@@ -1,10 +1,18 @@
 {
-  "version": 2,
-  "name": "personal-website",
-  "alias": ["quinoutland.com"],
-  "builds": [
-    { "src": "actions/*.js", "use": "@now/node" },
-    { "src": "index.html", "use": "@now/static" },
-    { "src": "public/**/*", "use": "@now/static" }
-  ]
+	"version": 2,
+	"name": "personal-website",
+	"alias": ["quinoutland.com"],
+	"builds": [{
+			"src": "actions/*.js",
+			"use": "@now/node"
+		},
+		{
+			"src": "index.html",
+			"use": "@now/static"
+		},
+		{
+			"src": "public/**/*",
+			"use": "@now/static"
+		}
+	]
 }
