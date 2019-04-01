@@ -24,21 +24,22 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
     <script src="public/index.js"></script>
-
 </head>
 
 <body>
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand"><a class="navbar-item" href="/">
-                    <img src="public/img/logo.png" alt="Quin Outland | Developer, Devops, IT Professional" width="48"></a>
-            <a class="contact button is-primary is-outlined is-rounded is-medium modal-button" data-target="my-modal">
-                    Contact</a>
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img src="public/img/logo.png" alt="Quin Outland | Developer, Devops, IT Professional" width="48">
+                </a>
+            <a class="contact button is-primary is-outlined is-rounded is-medium modal-button" href="public/outland_quintn_resume.pdf" download="Resume">Resume</a>
+            <a class="contact button is-primary is-outlined is-rounded is-medium modal-button" data-target="my-modal">Contact</a>
             </div>
             <div class="navbar-menu">
-                    <div class="navbar-end" style="margin-right: 10px;">
-                        <a class="button is-primary is-outlined is-rounded is-medium modal-button"
-                            data-target="my-modal">Contact</a>
-                    </div>
+                <div class="navbar-end" style="margin-right: 10px;">
+                    <a class="button is-primary is-outlined is-rounded is-medium modal-button" href="public/outland_quintn_resume.pdf" download="Resume" style="margin-right:5px;">Resume</a>
+                    <a class="button is-primary is-outlined is-rounded is-medium modal-button" data-target="my-modal">Contact</a>
+                </div>
     </nav>
     <section class="hero is-white has-text-centered">
         <div class="hero-body">
@@ -62,8 +63,8 @@
             <div class="columns is-centered">
                 <div class="column is-three-fifths">
                     <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Hi, I’m Quin. Nice to meet you.</h1>
-                    <h2 class="subtitle is-size-5-desktop">I am recent college graduate looking to get my foot in the
-                        door. I am highly motivated and a fast learner. I am looking to begin my career in a small to
+                    <h2 class="subtitle is-size-5-desktop">I am a recent college graduate looking to jumpstart my professional career.
+                        I am highly motivated and I pick up new things easily. I am looking to begin my career in a small to
                         medium size company and would be comfortable wearing multiple hats.</h2>
                 </div>
             </div>
@@ -98,7 +99,7 @@
                             <h1 class="title is-size-4 is-spaced">Devops</h1>
                             <p>I enjoy orchestrating deployments, automating processes, and increasing effeciency.</p>
                             <p class="list-title has-text-primary has-text-weight-normal">Applications:</p>
-                            <p>Jenkins, Kubernetes</p>
+                            <p>Jenkins, Docker</p>
                             <p class="list-title has-text-primary has-text-weight-normal">Profecient skills:</p>
                             <ul>
                                 <li>Git</li>
@@ -126,7 +127,6 @@
                                 <li>Endpoint Security (Carbon Black)</li>
                                 <li>Threat Detection (TripWire)</li>
                                 <li>Password Vault (CyberArk)</li>
-                                <li>
                             </ul>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                         <figure class="image is-3by2"><img class="project-thumb" src="public/img/docent.png">
                             <figcaption>
                                 <h1 class="title is-size-5 is-size-4-widescreen">An Activity Application to find things
-                                    to do in Reno.</h1><a class="button is-primary is-outlined is-rounded"
+                                    to do in Reno. Source code available upon request.</h1><a class="button is-primary is-outlined is-rounded"
                                     href="https://docent.life" target="_blank"><span>Visit Website</span><span
                                         class="icon"><i class="fas fa-angle-right"></i></span></a>
                             </figcaption>
@@ -154,7 +154,7 @@
                     <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
                         <figure class="image is-3by2"><img class="project-thumb" src="public/img/war.png">
                             <figcaption>
-                                <h1 class="title is-size-5 is-size-4-widescreen">A War (card game simulator) written in
+                                <h1 class="title is-size-5 is-size-4-widescreen">War (card game simulator) written in
                                     Python.</h1><a class="button is-primary is-outlined is-rounded"
                                     href="https://github.com/qoutland/PyWar" target="_blank"><span>Visit
                                         Website</span><span class="icon"><i class="fas fa-angle-right"></i></span></a>
@@ -165,7 +165,7 @@
                     <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
                         <figure class="image is-3by2"><img class="project-thumb" src="public/img/iot.jpg">
                             <figcaption>
-                                <h1 class="title is-size-5 is-size-4-widescreen">An iot Client-Server Application
+                                <h1 class="title is-size-5 is-size-4-widescreen">An IoT Client-Server Application
                                     written in Python.</h1><a class="button is-primary is-outlined is-rounded"
                                     href="https://github.com/qoutland/IoT_Client_Server" target="_blank"><span>Visit
                                         Website</span><span class="icon"><i class="fas fa-angle-right"></i></span></a>
@@ -233,11 +233,14 @@
                         <p>Looking to hire me? Send me a message!</p>
                     </div>
                     <div class="column level-item">
-                        <a class="button is-primary is-outlined is-rounded is-medium modal-button"
-                            data-target="my-modal">
-                            Reach out
-                        </a>
+                        <a class="button is-primary is-outlined is-rounded is-medium modal-button" data-target="my-modal">Reach out</a>
                     </div>
+                    <div class="column level-item">
+                            <p>Download my resume here!</p>
+                        </div>
+                        <div class="column level-item">
+                            <a class="button is-primary is-outlined is-rounded is-medium modal-button" href="public/outland_quintn_resume.pdf" download>Resume</a>
+                        </div>
                 </div>
             </div>
         </div>
